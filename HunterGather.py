@@ -155,7 +155,7 @@ def DomainLookup():
 		except:
 			print("GoWitness not found, skipping!")
 	Wrapper()
-
+	print("\n")
 # Checking for arguments 
 print("\n")
 if args.name:
