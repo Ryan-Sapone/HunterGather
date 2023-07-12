@@ -2,7 +2,7 @@
 An OSINT tool used for searching first/last names, email addresses, usernames, phone numbers, and domains. This script makes use of hardcoded web URLs from well known OSINT websites as well as tools like Sherlock, Phoneinfoga, Subfinder, Assetfinder, Amass, HTTProbe, and GoWitness. This does not use any API keys, so the script will instead provide hyperlinks that you can use to help speed up your OSINT gathering. This also has the benefit of not interacting with these websites until you click the link, so there shouldn't be issues with rate limiting or captchas. Some of the provided links do however require manual intervention, and the script will note that.
 
 # Requirements
-The only requirement is to install argparse, which can be done with the following command: `pip3 install argparse` (or just `pip install argparse` if you only have Python 3). Make sure to also give execute permissions with `chmod +x HunterGather.py`
+There are no requirements for this script.
 
 # How To Use
 Once the script is on your system, you can type `-h` or `--help` to see the arguments. These include:
